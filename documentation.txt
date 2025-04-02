@@ -30,4 +30,8 @@ Add more test to test out request
 -Delete the same user   ->Doesn't Exist(500 INTERNAL SERVER ERROR),(200 OK)
 
 Idempotance and Safety
+-Idempotent request needs to be tested two times.
+-Idempotenet request needs a safe request after it (Get request)
+-Sage request need to be run only one time
 
+Post request ->2,3,4
