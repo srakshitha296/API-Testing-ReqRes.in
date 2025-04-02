@@ -35,3 +35,16 @@ Idempotance and Safety
 -Sage request need to be run only one time
 
 Post request ->2,3,4
+
+
+Write test scripts
+----------------------------------------------
+In any request check 3 things
+-Response code
+-Response time
+-Response body
+
+1.List a single resource (ID is variable)
+2.Get the name of the resource (Add it as environment variable)
+3.List all resources, and check that the name of the previous resource exists (for loop)
+
