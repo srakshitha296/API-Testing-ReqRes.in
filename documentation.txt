@@ -1,0 +1,33 @@
+1.Go through the documentation
+2.Plan for your tests (Create test schedule)
+3.Add requests to postman
+4.Run requests manually
+5.Add tests to request
+6.Run collection automatically
+
+Add more test to test out request
+1.Get a user
+2.Create a user
+3.Update a user
+
+--------------------------------
+-Create a new user(POST request)
+-Get the same user
+-Update the user(PUT or PATCH)
+-Get the same user
+-Delete a user
+-Get the same user
+
+--------------------------------
+-Create a new user(POST request)(unique username)(srakshitha296)    ->PASS
+-Create a new user(POST request)(unique username)(srakshitha296)    ->FAIL
+
+-Update the user(PUT or PATCH)
+-Update the user(PUT or PATCH)
+
+-Delete a user(ID)
+-Get the same user  ->Doesn't Exist
+-Delete the same user   ->Doesn't Exist(500 INTERNAL SERVER ERROR),(200 OK)
+
+Idempotance and Safety
+
